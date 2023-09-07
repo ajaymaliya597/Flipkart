@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Play&display=swap');
+.foot{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 12vh;
+}
+.btn{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background: var(--main-bg-color);
+    padding: 4.5px 15px;
+    cursor: pointer;
+    font-family: 'Play', sans-serif;
+    border-radius: 5px;
+
+}
+
+.my-1{
+    margin: 5px 0;
+}
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+.fav{
+    height: 0px;
+    width: 2px;
+}
+
+p{
+    padding: 0px 47px;
+}
+
+.imgf{display: flex;
+    align-items: center;
+}
+
+.login{
+  display: flex;
+  margin: 0 1vw
+}
+.login img{
+    background: #ffffff;
+    border-radius: 6px;
+    border: 5px outset whitesmoke;
+    margin: 5px;
+}
+
+hr{
+    border: 3px inset #cdcdcd;
+}
+body{
+    background-image: url('../img/bg.jpg');
+    background-repeat: round;
+    background-attachment: fixed;
+
+}
+.hdm{
+    display: flex;
+    justify-content: center;
+}
+
+
